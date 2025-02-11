@@ -15,7 +15,7 @@ def initialize_system():
         st.session_state.rag_system = RAGQuestionAnswerer(vector_store)
 
 def main():
-    st.title("Document Q&A with Gemini")
+    st.title("AskMate")
     
     # Initialize system
     initialize_system()
@@ -50,8 +50,8 @@ def main():
                 st.sidebar.success(f"Processed {len(documents)} document chunks!")
     
     # Q&A section
-    st.header("❓ Ask Questions")
-    user_question = st.text_input("What would you like to know about your documents?")
+    st.header("Question Block:")
+    user_question = st.text_input("What would you like to know about your document?")
     
     if user_question:
         with st.spinner("Generating answer..."):
