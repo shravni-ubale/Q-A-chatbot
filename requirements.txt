@@ -5,3 +5,4 @@ qdrant-client
 pypdf
 python-dotenv
 streamlit
+langchain-community
