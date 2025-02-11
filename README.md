@@ -1,5 +1,7 @@
 # Q&A Chatbot 
 
+Launched site at https://askmate-pdfbot.streamlit.app/
+
 ## About the Project
 
 This project demonstrates the integration of modern AI tools to create a functional and intelligent chatbot. It uses:
@@ -64,3 +66,5 @@ The chatbot retrieves relevant information from a knowledge base using Qdrant an
 ---
 
 
+created by Shravni Ubale
+---
