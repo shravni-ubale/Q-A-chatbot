@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+env/
+
+# Environment variables
+.env
+
+# Dependencies
+node_modules/
+
+# Large files & directories
+*.zip
+*.rar
+*.model
+models/
+large_files/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+.DS_Store
